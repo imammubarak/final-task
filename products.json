@@ -1,0 +1,184 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "Smartphone XYZ",
+            "price": 499.99,
+            "description": "Latest smartphone with 8GB RAM and 128GB storage.",
+            "images": ["images/smartphone1.jpg", "images/smartphone2.jpg", "images/smartphone3.jpg"],
+            "rating": 4.5,
+            "reviews": 120
+        },
+        {
+            "id": 2,
+            "name": "4K TV",
+            "price": 799.99,
+            "description": "Ultra HD 4K Smart TV with HDR support.",
+            "images": ["images/tv1.jpg", "images/tv2.jpg", "images/tv3.jpg"],
+            "rating": 4.7,
+            "reviews": 98
+        },
+        {
+            "id": 3,
+            "name": "Laptop Pro",
+            "price": 1299.99,
+            "description": "Powerful laptop with Intel i7 and 16GB RAM.",
+            "images": ["images/laptop1.webp", "images/laptop2.webp", "images/laptop3.webp"],
+            "rating": 4.8,
+            "reviews": 150
+        },
+        {
+            "id": 4,
+            "name": "Bluetooth Speaker",
+            "price": 59.99,
+            "description": "Portable Bluetooth speaker with deep bass.",
+            "images": ["images/speaker1.webp", "images/speaker2.webp", "images/speaker3.webp"],
+            "rating": 4.4,
+            "reviews": 85
+        },
+        {
+            "id": 5,
+            "name": "Wireless Headphones",
+            "price": 199.99,
+            "description": "Noise-cancelling wireless headphones with 20 hours battery life.",
+            "images": ["images/headphone1.jpg", "images/headphone2.jpg", "images/headphone3.jpg"],
+            "rating": 4.6,
+            "reviews": 200
+        },
+        {
+            "id": 6,
+            "name": "Smartwatch",
+            "price": 249.99,
+            "description": "Smartwatch with heart rate monitor and GPS.",
+            "images": ["images/smartwatch1.jpg", "images/smartwatch2.jpg", "images/smartwatch3.jpg"],
+            "rating": 4.3,
+            "reviews": 130
+        },
+        {
+            "id": 7,
+            "name": "Tablet",
+            "price": 349.99,
+            "description": "10-inch tablet with 64GB storage and Wi-Fi.",
+            "images": ["images/tablet1.webp", "images/tablet2.jpg", "images/tablet3.jpg"],
+            "rating": 4.2,
+            "reviews": 90
+        },
+        {
+            "id": 8,
+            "name": "Gaming Console",
+            "price": 499.99,
+            "description": "Next-gen gaming console with 4K support.",
+            "images": ["images/console1.webp", "images/console2.webp", "images/console3.webp"],
+            "rating": 4.9,
+            "reviews": 250
+        },
+        {
+            "id": 9,
+            "name": "DSLR Camera",
+            "price": 899.99,
+            "description": "Professional DSLR camera with 24MP sensor.",
+            "images": ["images/camera1.webp", "images/camera2.webp", "images/camera3.webp"],
+            "rating": 4.7,
+            "reviews": 170
+        },
+        {
+            "id": 10,
+            "name": "Air Purifier",
+            "price": 149.99,
+            "description": "Air purifier with HEPA filter for large rooms.",
+            "images": ["images/purifier1.webp", "images/purifier2.webp", "images/purifier3.webp"],
+            "rating": 4.5,
+            "reviews": 80
+        },
+        {
+            "id": 11,
+            "name": "Electric Kettle",
+            "price": 49.99,
+            "description": "Stainless steel electric kettle with fast boil.",
+            "images": ["images/kettle1.webp", "images/kettle2.webp", "images/kettle3.webp"],
+            "rating": 4.3,
+            "reviews": 60
+        },
+        {
+            "id": 12,
+            "name": "Fitness Tracker",
+            "price": 99.99,
+            "description": "Fitness tracker with step counter and sleep monitor.",
+            "images": ["images/fitness1.webp", "images/fitness2.webp", "images/fitness3.webp"],
+            "rating": 4.1,
+            "reviews": 110
+        },
+        {
+            "id": 13,
+            "name": "Robot Vacuum",
+            "price": 399.99,
+            "description": "Smart robot vacuum cleaner with Wi-Fi connectivity.",
+            "images": ["images/vacuum1.webp", "images/vacuum2.webp", "images/vacuum3.webp"],
+            "rating": 4.6,
+            "reviews": 150
+        },
+        {
+            "id": 14,
+            "name": "Gaming Mouse",
+            "price": 69.99,
+            "description": "Ergonomic gaming mouse with customizable buttons.",
+            "images": ["images/mouse1.webp", "images/mouse2.webp", "images/mouse3.webp"],
+            "rating": 4.7,
+            "reviews": 95
+        },
+        {
+            "id": 15,
+            "name": "Smart Light Bulbs",
+            "price": 29.99,
+            "description": "Set of 4 smart light bulbs with voice control.",
+            "images": ["images/light1.webp", "images/light2.webp", "images/light3.webp"],
+            "rating": 4.4,
+            "reviews": 75
+        },
+        {
+            "id": 16,
+            "name": "Microwave Oven",
+            "price": 199.99,
+            "description": "Compact microwave oven with pre-set cooking functions.",
+            "images": ["images/microwave1.webp", "images/microwave2.webp", "images/microwave3.webp"],
+            "rating": 4.5,
+            "reviews": 100
+        },
+        {
+            "id": 17,
+            "name": "Smart Refrigerator",
+            "price": 1499.99,
+            "description": "Smart refrigerator with touch screen and Wi-Fi.",
+            "images": ["images/fridge1.webp", "images/fridge2.webp", "images/fridge3.webp"],
+            "rating": 4.8,
+            "reviews": 60
+        },
+        {
+            "id": 18,
+            "name": "Electric Toothbrush",
+            "price": 79.99,
+            "description": "Electric toothbrush with multiple brushing modes.",
+            "images": ["images/toothbrush1.webp", "images/toothbrush2.webp", "images/toothbrush3.webp"],
+            "rating": 4.5,
+            "reviews": 85
+        },
+        {
+            "id": 19,
+            "name": "Smart Thermostat",
+            "price": 249.99,
+            "description": "Smart thermostat with voice control and remote access.",
+            "images": ["images/thermostat1.webp", "images/thermostat2.webp", "images/thermostat3.webp"],
+            "rating": 4.7,
+            "reviews": 90
+        },
+        {
+            "id": 20,
+            "name": "Coffee Maker",
+            "price": 129.99,
+            "description": "Automatic coffee maker with programmable timer.",
+            "images": ["images/coffeemaker1.webp", "images/coffeemaker2.webp", "images/coffeemaker3.webp"],
+            "rating": 4.6,
+            "reviews": 120
+        }
+    ]
+}

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jumia Clone - Home</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="scripts.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">Unique gadget</div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html">Shop</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="search">
+                <input type="text" placeholder="Search...">
+                <button class="search-btn">Search</button>
+            </div>
+            <div class="cart-icon">
+                <a class="cart" href="#"><ion-icon name ="cart-outline"></ion-icon></a>
+                <a href="cart.html">Cart (<span id="cart-item-count">0</span>)</a>
+            </div>
+
+        </div>
+    </header>
+
+    <section class="hero">
+        <img src="images/shoping1.webp" height="200px" width="100%" alt="">
+        <div class="container">
+            <h1>Welcome to unique gadget</h1>
+            <p>Your one-stop shop for all things electronic!</p>
+        </div>
+    </section>
+
+    <section class="featured-products">
+        <div class="container">
+            <h2>Featured Products</h2>
+            <div class="product-grid" id="product-grid">
+                <!-- Products will be dynamically loaded here -->
+            </div>
+        </div>
+    </section>
+    <section class="categories">
+        <h2>Shop by Gadget Categories</h2>
+        <div class="category-grid">
+            <div class="category-card">
+                <img src="images/smartphone3.jpg" alt="Smartphones">
+                <h3>Smartphones</h3>
+                <a href="#" class="btn">Shop Now</a>
+            </div>
+            <div class="category-card">
+                <img src="images/laptop3.webp" alt="Laptops">
+                <h3>Laptops</h3>
+                <a href="shop.html?category=laptops" class="btn">Shop Now</a>
+            </div>
+            <div class="category-card">
+                <img src="images/tablet3.jpg" alt="Tablets">
+                <h3>Tablets</h3>
+                <a href="shop.html?category=tablets" class="btn">Shop Now</a>
+            </div>
+            <div class="category-card">
+                <img src="images/camera4.webp" alt="Wearables">
+                <h3>Wearables</h3>
+                <a href="shop.html?category=wearables" class="btn">Shop Now</a>
+            </div>
+            <div class="category-card">
+                <img src="images/home appliance.webp" alt="Accessories">
+                <h3>Accessories</h3>
+                <a href="shop.html?category=accessories" class="btn">Shop Now</a>
+            </div>
+            <div class="category-card">
+                <img src="images/camera1.webp" alt="Cameras">
+                <h3>Cameras</h3>
+                <a href="shop.html?category=cameras" class="btn">Shop Now</a>
+            </div>
+            <div class="category-card">
+                <img src="images/vacuum1.webp" alt="Audio Devices">
+                <h3>Audio Devices</h3>
+                <a href="shop.html?category=audio-devices" class="btn">Shop Now</a>
+            </div>
+            <div class="category-card">
+                <img src="images/console3.webp" alt="Gaming Consoles">
+                <h3>Gaming Consoles</h3>
+                <a href="shop.html?category=gaming-consoles" class="btn">Shop Now</a>
+            </div>
+        </div>
+    </section>
+
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Unique-gadget. All rights reserved.</p>
+            <p>Follow us on <a href="#">Social Media</a></p>
+            <p>Contact us: <a href="mailto:info@unique-gadget.com">info@unique-gadget.com</a></p>
+        </div>
+    </footer>
+</body>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+</html>

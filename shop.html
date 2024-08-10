@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop - Your Store</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">Unique gadget</div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html">Shop</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="search">
+                <input type="text" placeholder="Search...">
+                <button class="search-btn">Search</button>
+            </div>
+            <div class="cart-icon">
+                <a class="cart" href="#"><ion-icon name ="cart-outline"></ion-icon></a>
+                <a href="cart.html">Cart (<span id="cart-item-count">0</span>)</a>
+            </div>
+
+        </div>
+    </header>
+    <main>
+        <section class="product-grid" id="product-grid">
+            <!-- Products will be dynamically loaded here -->
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Unique-gadget. All rights reserved.</p>
+        <p>Follow us on <a href="#">Social Media</a></p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
